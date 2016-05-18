@@ -1,6 +1,6 @@
 {
   "name": "submarino-scrap",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "Web Scraping a submarino product",
   "main": "main.js",
   "author": "Maradona Morais",
