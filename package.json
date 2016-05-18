@@ -1,11 +1,11 @@
 {
-    "name":"submarino-scrap",
-    "version":"0.0.4",
-    "description":"Web Scraping a submarino product",
-    "main":"main.js",
-    "author":"Maradona Morais",
-    "dependencies": {
-        "request":"latest",
-        "cheerio":"latest"
-    }
+  "name": "submarino-scrap",
+  "version": "0.0.4",
+  "description": "Web Scraping for submarino.com.br products",
+  "main": "main.js",
+  "author": "Maradona Morais",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.72.0"
+  }
 }
