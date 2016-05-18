@@ -11,5 +11,5 @@
     "es6-promise": "^3.2.1",
     "request": "^2.72.0"
   },
-  "contributors":["João Ferreira <lubien1996@gmail.com>"]
+  "contributors":["João Ferreira <lubien1996@gmail.com>", "Magno Fernando <me@magnobiet.com>"]
 }
