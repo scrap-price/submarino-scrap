@@ -1,5 +1,7 @@
 ### Algoritmo de Web Scraping
 
+[![Gitter](https://badges.gitter.im/scrap-price/submarino-scrap.svg)](https://gitter.im/scrap-price/submarino-scrap?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
 O **submarino-scrap** é um algoritmo utilizado para a obtenção de metadados relacionados à produtos da E-commerce Submarino à partir da URL.
 
 É feita uma leitura padronizada dos elementos da página do produto e, desta forma, obtidos os dados relativos ao mesmo. Atualmente os dados drenados pelo algoritmo são: Nome, Preço e Thumbnail.
