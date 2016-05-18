@@ -2,12 +2,14 @@
   "name": "submarino-scrap",
   "version": "0.1.0",
   "description": "Web Scraping a submarino product",
+  "keywords": ["web scraping", "product", "submarino"],
   "main": "main.js",
-  "author": "Maradona Morais",
+  "author": "Maradona Morais <maradona.morais@hotmail.com>",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^0.20.0",
     "es6-promise": "^3.2.1",
     "request": "^2.72.0"
-  }
+  },
+  "contributors":["João Ferreira <lubien1996@gmail.com>"]
 }
