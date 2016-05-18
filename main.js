@@ -21,9 +21,9 @@ exports.getProduct = function(url, callback) {
                 product.thumbnail = mpPhotos.children('.carousel').children('.carousel-list').children().first().children('img[itemprop=thumbnail]').attr('src');
             }
 
-            callback(product, false);
+            callback(false, product);
         } else {
-            callback({erro:"Cannot get product"}, true);
+            callback(true, {error:"Cannot get product"});
         }
     });
 };
