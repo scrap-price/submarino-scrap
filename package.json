@@ -4,6 +4,7 @@
   "description": "Web Scraping a submarino product",
   "main": "main.js",
   "author": "Maradona Morais",
+  "license": "MIT",
   "dependencies": {
     "cheerio": "^0.20.0",
     "es6-promise": "^3.2.1",
