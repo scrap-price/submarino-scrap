@@ -1,6 +1,6 @@
 {
   "name": "submarino-scrap",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Web Scraping a submarino product",
   "keywords": ["web scraping", "product", "submarino"],
   "main": "main.js",
