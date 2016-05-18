@@ -5,8 +5,8 @@
   "main": "main.js",
   "author": "Maradona Morais",
   "dependencies": {
-    "cheerio": "latest",
+    "cheerio": "^0.20.0",
     "es6-promise": "^3.2.1",
-    "request": "latest"
+    "request": "^2.72.0"
   }
 }
