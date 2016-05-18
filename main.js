@@ -17,6 +17,9 @@ exports.getProduct = function(url, callback) {
 
             var mpPhotos = $('.mp-photos');
             product.thumbnail = mpPhotos.children('.carousel').children('.carousel-list').children().first().children('img[itemprop=thumbnail]').attr('data-szimg');
+            if (product.thumbnail == null) {
+                product.thumbnail = mpPhotos.children('.carousel').children('.carousel-list').children().first().children('img[itemprop=thumbnail]').attr('src');
+            }
 
             callback(product, false);
         } else {
