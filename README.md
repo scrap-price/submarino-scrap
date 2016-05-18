@@ -12,11 +12,12 @@ O **submarino-scrap** é um algoritmo utilizado para a obtenção de metadados r
  var subscrap = require('submarino-scrap');
  var url = "http://www.submarino.com.br/produto/124431005/smart-tv-led-65-samsung-65ju6000-ultra-hd-4k-com-conversor-digital-3-hdmi-2-usb-funcao-games-wi-fi";
  
- subscrap.getProduct(url, function(res, erro)) {
-    if(!erro) {
-        console.log(res);
-    }
- }
+ subscrap.getProduct(url).then(function(product) {
+    console.log(product);
+ }, function(err) {
+    console.log(err);
+ });
+
 ```
 
 #### Objeto de resposta
@@ -32,5 +33,5 @@ O **submarino-scrap** é um algoritmo utilizado para a obtenção de metadados r
 #### Objeto de erro
 
 ```js
- { erro: 'Cannot get product' }
+ { error: 'Cannot get product' }
 ```

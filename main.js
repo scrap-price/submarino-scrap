@@ -22,7 +22,7 @@ exports.getProduct = function(url) {
                 if (product.thumbnail == null) {
                     product.thumbnail = mpPhotos.children('.carousel').children('.carousel-list').children().first().children('img[itemprop=thumbnail]').attr('src');
                 }
-
+                
                 fulfill(product);
             } else {
                 reject({error:"Cannot get product"});
