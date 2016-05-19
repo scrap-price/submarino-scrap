@@ -22,7 +22,7 @@ subscrap.getProduct(url).then(function(product) {
 
 ### Objeto de resposta
 
-```json
+```js
 {
   title: "Smartphone Asus Live Dual Chip Desbloqueado Android 5 Tela 5\" 16GB 3G 8MP e  TV Digital - Preto",
   price: "788.4199829101562",
